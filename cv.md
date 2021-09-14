@@ -104,4 +104,4 @@ function duplicateCount(text){
 * **Russian** - Native Speaker
 * **English** - C1
 
-![Certificate in Advanced English](/images/StatementOfResult.jpg "Certificate in Advanced English")
+![Certificate in Advanced English](images/statement.jpg "Certificate in Advanced English")
