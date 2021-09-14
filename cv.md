@@ -73,3 +73,29 @@ function duplicateCount(text){
   return duplicates;
 }
 ```
+## Education
+
+* **Peter the Great St. Petersburg Polytechnic University, Bachelor's degree**
+    * Fundamental Computer Science and Information Technology
+* **Courses**
+    * [Jenny's lectures CS/IT NET&JRF](https://www.youtube.com/c/JennyslecturesCSITNETJRF)
+    * [freeCodeCamp.org lectures](https://www.youtube.com/c/Freecodecamp)
+    * Technopolis (Mail.ru Group)
+        * Introduction to Java
+        * Test automation
+    * Udemy
+        * Java Programming Masterclass covering Java 11 & Java 17
+    * Stepik
+        * JavaScript for beginners
+        * Hexlet: An Introduction to Programming (JavaScript ES6)
+    * Code Basics
+        * HTML
+        * CSS
+    * RS Schools 
+        * JavaScript/Front-end. Stage 1 (in progress)
+    * [JavaScript Manual](https://learn.javascript.ru/) (in progress)
+* **Trainings**
+    * One month training in T-Systems (Data Science and Neural Networks)
+* **Projects**
+    * University project "Doggo" - mobile android app for safe dog walking (private project)
+    
