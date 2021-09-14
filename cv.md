@@ -21,4 +21,19 @@ At present, I'm 20 years old and I'm a 3rd year student, learning web programmin
 parallel. In my opinion, Frontend Development is not only one of the most promising industries of the
 future, but it also provides sizeable opportunities for showing your creativity in elaborating effective
 solutions, as well as simplifying people's lives by creating user-friendly websites and apps. I am certain that
-Web Development is the field in which I see myself and want to actively develop in the upcoming years. 
+Web Development is the field in which I see myself and want to actively develop in the upcoming years.
+
+## Skills
+
+- JavaScript Basics
+- HTML5
+- CSS3
+- C++
+- Java
+- Python Basics
+- Dart
+- Selenium
+- Git, Github, Gitlab
+- Apache Maven
+- VS Code, IntelliJ IDEA, Microsoft Visual Studio, PyCharm, Android Studio
+- Windows OS, Linux (Ubuntu)
