@@ -98,4 +98,10 @@ function duplicateCount(text){
     * One month training in T-Systems (Data Science and Neural Networks)
 * **Projects**
     * University project "Doggo" - mobile android app for safe dog walking (private project)
-    
+
+## Languages
+
+* **Russian** - Native Speaker
+* **English** - C1
+
+![Certificate in Advanced English](/images/StatementOfResult.jpg "Certificate in Advanced English")
