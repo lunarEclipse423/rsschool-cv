@@ -1,53 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Belova Maria CV RSS</title>
   </head>
   <body>
     <div class="centered-content">
       <header class="contacts-bar">
-        <img
-          src="/images/icon-phone.svg"
-          class="contact-icon"
-          alt="phone icon"
-        />
-        <p class="contacts-info">+7 (953) 545-41-44</p>
-        <img
-          src="/images/icon-email.svg"
-          class="contact-icon"
-          alt="email icon"
-        />
-        <p class="contacts-info">masha.belova.01@mail.ru</p>
-        <img
-          src="/images/icon-telegram.svg"
-          class="contact-icon"
-          alt="telegram icon"
-        />
-        <a href="https://t.me/Graf_V" class="contacts-info telegram-link"
-          >Maria Belova</a
-        >
+        <img class="contact-icon" src="/images/icon-phone.svg" alt="phone icon">
+        <span class="contacts-info">+7 (953) 545-41-44</span>
+        <img class="contact-icon" src="/images/icon-email.svg" alt="email icon">
+        <span class="contacts-info">masha.belova.01@mail.ru</span>
+        <img class="contact-icon" src="/images/icon-telegram.svg" alt="telegram icon">
+        <a class="contacts-info telegram-link" href="https://t.me/Graf_V">Belova Maria</a>
       </header>
 
-      <div class="first-page-container">
-        <div class="about-me-section">
+      <main>
+        <section class="first-section">
+        <section class="about-me">
           <h2 class="occupation-title">junior frontend developer</h2>
-          <h1 class="name">Belova Maria</h1>
+          <h1 class="my-name">Belova Maria</h1>
           <h2>about me</h2>
-          <p class="first-paragraph">
+          <p class="first-about-me-p">
             Ever since high school, I’ve been interested in IT and programming.
             That is the main reason why I was thrilled to go to Peter the Great
             St. Petersburg Polytechnic University to study Fundamental Computer
             Science and Information Technology.
           </p>
-          <p class="second-paragraph">
+          <p class="second-about-me-p">
             Studying at the university taught me a whole host of valuable
             skills, such as being collaborative, independent (which is more
             about time management and study-life-balance), active and
@@ -55,7 +39,7 @@
             like to highlight self-learning since this ability cannot be
             dispensed with both at the university and in real life.
           </p>
-          <p class="third-paragraph">
+          <p class="third-about-me-p">
             At present, I’m 20 years old and I’m a 3rd year student, learning
             web programming at the RS-School in parallel. In my opinion,
             Frontend Development is not only one of the most promising
@@ -66,18 +50,12 @@
             is the field in which I see myself and want to actively develop in
             the upcoming years.
           </p>
-        </div>
-        <div class="portrait">
-          <img
-            src="/images/portrait.jpg"
-            class="portrait-image"
-            alt="portrait"
-          />
-        </div>
-      </div>
+        </section>
+        <img class="portrait" src="/images/portrait.jpg" alt="portrait" width="420" height="775">
+      </section>
 
-      <div class="second-page-container">
-      <div class="left-side-section">
+      <section class="second-section">
+      <section class="skills-and-lang-section">
         <h2 class="skills-title">skills</h2>
         <ul class="skills-list">
           <li>JavaScript Basics</li>
@@ -90,40 +68,29 @@
           <li>Selenium</li>
           <li>Git, Github, Gitlab</li>
           <li>Apache Maven</li>
-          <li>VS Code, IntelliJ IDEA, Microsoft VS, </br>PyCharm, Android Studio</li>
+          <li>VS Code, IntelliJ IDEA, Microsoft VS, <br>PyCharm, Android Studio</li>
           <li>Windows OS, Linux (Ubuntu)</li>
         </ul>
-        <h2 class="language-title">languages</h2>
+        <h2>languages</h2>
         <ul class="languages-list">
-          <li>Russian, Native </br> <img
-          src="/images/russian-bar.svg"
-          class="russian-bar"
-          alt="russian level"
-        />
-          <li>English, Advanced</br>
-            <img
-          src="/images/english-bar.svg"
-          class="english-bar"
-          alt="english level"
-        /></li>
+          <li>Russian, Native <br>
+            <img class="russian-bar" src="/images/russian-bar.svg" alt="russian level">
+          <li>English, Advanced <br>
+            <img class="english-bar" src="/images/english-bar.svg" alt="english level">
+          </li>
         </ul>
-      </div>
-      <img
-          src="/images/divider.svg"
-          class="divider"
-          alt="divider image"
-        />
-      <div class="right-side-section">
-        <div class="education">
+      </section>
+      <img class="divider" src="/images/divider.svg" alt="divider image">
+      <section class="education-section">
           <h2 class="education-title">education</h2>
           <ul class="education-list">
-            <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> </br>
+            <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> <br>
               Fundamental Computer Science and Information Technology
             </li>
             <li class="education-list-item"><span class="education-list-item-title">Courses</span>
               <ul class="courses-list">
-                <li><a href="https://www.youtube.com/c/JennyslecturesCSITNETJRF" class="course-link">Jenny’s lectures CS/IT NET&JRF</a></li>
-                <li><a href="https://www.youtube.com/c/Freecodecamp" class="course-link">freeCodeCamp.org lectures</a></li>
+                <li><a class="course-link" href="https://www.youtube.com/c/JennyslecturesCSITNETJRF">Jenny’s lectures CS/IT NET&JRF</a></li>
+                <li><a class="course-link" href="https://www.youtube.com/c/Freecodecamp">freeCodeCamp.org lectures</a></li>
                 <li>Technopolis (Mail.ru Group)
                   <ul>
                     <li>Introduction to Java</li>
@@ -152,74 +119,71 @@
                     <li>JavaScript/Front-end. Stage 1 (in progress)</li>
                   </ul>
                 </li>
-                <li><a href="https://learn.javascript.ru/" class="course-link">JavaScript Manual</a> (in progress)</li>
+                <li><a class="course-link" href="https://learn.javascript.ru/">JavaScript Manual</a> (in progress)</li>
               </ul>
             </li>
             <li class="education-list-item"><span class="education-list-item-title">Trainings</span>
-              <li>One month training in T-Systems (Data Science and Neural Networks)</li>
+              <ul class="trainings-list">
+                <li>One month training in T-Systems (Data Science and Neural Networks)</li>
+              </ul>
             </li>
             <li class="education-list-item"><span class="education-list-item-title">Projects</span>
-              <li>University project “Doggo” - mobile android app for safe dog walking (private project)</li>
+              <ul class="projects-list">
+                <li>University project “Doggo” - mobile android app for safe dog walking (private project)</li>
+              </ul>
             </li>
           </ul>
-        </div>
-      </div>
-    </div>
+      </section>
+    </section>
 
-    <div class="bottom-side-section">
+    <section class="code-example-section">
         <h2>code example</h2>
-        <h3>Count the number of Duplicates (from <a href="https://www.codewars.com/" class="codewars-link">Codewars</a>)</h3>
+        <h3>Count the number of Duplicates (from <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)</h3>
         <p class="task">
           Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
         </p>
         <h3>Example</h3>
-        <p class="example">
-          “abcde” -> 0 <code class="code-styled-text"># no characters repeats more than once</code></br>
-          “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code></br>
-          “aabBcde” -> 2 <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code></br>
-          “indivisibility” -> 1 <code class="code-styled-text"># 'i' occurs six times</code></br>
-          “Indivisibilities” -> 2 <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code></br>
-          “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code></br>“ABBA” -> 2 <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
+        <p class="input-example">
+          “abcde” -> 0 <code class="code-styled-text"># no characters repeats more than once</code><br>
+          “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code><br>
+          “aabBcde” -> 2 <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code><br>
+          “indivisibility” -> 1 <code class="code-styled-text"># 'i' occurs six times</code><br>
+          “Indivisibilities” -> 2 <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code><br>
+          “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code><br>“ABBA” -> 2 <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
         </p>
         <h3>Solution</h3>
         <pre class="code-example-block">
-          <code class="code">
+          <code>
       function duplicateCount(text){
         var obj = {};
-        for (var i = 0; i < text.length; ++i) {
-          obj[text[i].toLowerCase()] ? obj[text[i].toLowerCase()]++ : obj[text[i].toLowerCase()] = 1;    
+        for (var i = 0; i &lt; text.length; ++i) {
+          obj[text[i].toLowerCase()] ? obj[text[i].toLowerCase()]++ : obj[text[i].toLowerCase()] = 1;
         }
-              
+
         var duplicates = 0;
         for (prop in obj) {
           if (obj[prop] > 1) {
             duplicates++;
           }
         }
-              
+
         return duplicates;
       }</code>
       </pre>
-    </div>
+    </section>
+    </main>
 
-    <footer class="footer-section">
-      <div class="footer-section-block">
+    <footer>
+      <div class="footer-block">
         <div class="github-info">
-          <img
-          src="/images/icon-github.svg"
-          class="github-icon"
-          alt="github icon"
-        />
-        <a href="https://github.com/lunarEclipse423" class="contacts-info github-link">Visit my GitHub</a></div>
-        <div class="year">2021</div>
-
-        <div class="rsschool-info">
-          <a href="https://rs.school/js/" class="rsschool-logo"><img
-          src="/images/rsschool.svg"
-          class="rsschool-icon"
-          alt="rsschool icon"
-        /></a>
+          <img class="github-icon" src="/images/icon-github.svg" alt="github icon">
+          <a class="contacts-info github-link" href="https://github.com/lunarEclipse423">Visit my GitHub</a>
         </div>
+        <span class="year">2021</span>
+        <div class="rsschool-info">
+          <a class="rsschool-logo" href="https://rs.school/js/">
+            <img class="rsschool-icon" src="/images/rsschool.svg" alt="rsschool icon">
+          </a>
         </div>
       </div>
     </footer>

@@ -2,20 +2,20 @@
   font-family: "IowanOldSt BT";
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot");
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot?#iefix")
-      format("embedded-opentype"),
+    format("embedded-opentype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff2") format("woff2"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff") format("woff"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.ttf") format("truetype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.svg#IowanOldStyleBT-Roman")
-      format("svg");
+    format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  background-color: #f3f2ed;
   margin-bottom: 0;
+  background-color: #f3f2ed;
 }
 
 .centered-content {
@@ -24,54 +24,54 @@ body {
 }
 
 h1 {
-  color: #2c2a27;
   font-family: "IowanOldSt BT", sans-serif;
-  font-weight: 400;
   font-size: 38px;
+  font-weight: 400;
+  color: #2c2a27;
 }
 
 h2 {
-  color: #ad764b;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 22px;
+  font-weight: 700;
   font-variant: small-caps;
   letter-spacing: 0.15em;
+  color: #ad764b;
 }
 
 h3 {
-  color: #ad764b;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 15px;
+  font-weight: 400;
   font-variant: normal;
   letter-spacing: 0.15em;
+  color: #ad764b;
 }
 
 .occupation-title {
-  color: #84522a;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 21px;
+  font-weight: 700;
   font-variant: small-caps;
   letter-spacing: 0.1em;
+  color: #84522a;
 }
 
 .contacts-bar {
+  display: flex;
   margin-top: 132px;
   margin-bottom: 70px;
-  display: flex;
 }
 
 .contacts-info,
 .year {
   margin-left: 8px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 15px;
-  color: #2c2a27;
+  font-weight: 400;
   letter-spacing: 0.3px;
   line-height: 150%;
+  color: #2c2a27;
 }
 
 .contact-icon {
@@ -79,7 +79,6 @@ h3 {
 }
 
 .telegram-link {
-  margin-top: 15px;
   text-decoration: none;
 }
 
@@ -88,48 +87,43 @@ h3 {
   text-decoration: underline;
 }
 
-.first-page-container {
+.first-section {
   display: flex;
   margin-bottom: 145px;
 }
 
-.about-me-section {
+.about-me {
   width: 470px;
   margin-left: 50px;
   margin-right: 55px;
 }
 
-.name {
+.my-name {
   margin-bottom: 90px;
 }
 
-.first-paragraph,
-.second-paragraph,
-.third-paragraph,
+.first-about-me-p,
+.second-about-me-p,
+.third-about-me-p,
 .task,
-.example {
+.input-example {
   margin-bottom: 32px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
-  line-height: 150%;
   letter-spacing: 0.4px;
+  line-height: 150%;
 }
 
 .portrait {
   margin-top: 25px;
 }
 
-.portrait-image {
-  width: 420px;
-  height: 740px;
-}
-
-.second-page-container {
+.second-section {
   display: flex;
   margin-bottom: 145px;
 }
 
-.left-side-section {
+.skills-and-lang-section {
   width: 435px;
   margin-left: 52px;
 }
@@ -139,25 +133,25 @@ h3 {
 }
 
 .skills-list {
-  padding-left: 0px;
   margin-bottom: 30px;
+  padding-left: 0;
 }
 
 li {
-  color: #2c2a27;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
-  list-style-type: none;
   letter-spacing: 0.4px;
+  list-style-type: none;
+  color: #2c2a27;
 }
 
-.skills-list li:before,
-.languages-list li:before {
-  content: "• ";
-  color: #ad764b;
-  font-size: 25px;
+.skills-list li::before,
+.languages-list li::before {
   padding-right: 10px;
+  content: "• ";
+  font-size: 25px;
   vertical-align: middle;
+  color: #ad764b;
 }
 
 .languages-list,
@@ -180,7 +174,7 @@ li {
   padding-top: 17px;
 }
 
-.right-side-section {
+.education-section {
   margin-left: 20px;
 }
 
@@ -189,9 +183,9 @@ li {
 }
 
 .education-list-item-title {
-  color: #2c2a27;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
+  color: #2c2a27;
 }
 
 .education-list .education-list-item {
@@ -199,7 +193,7 @@ li {
 }
 
 .courses-list li {
-  padding: 3px 0px;
+  padding: 3px 0;
 }
 
 .courses-list li ul {
@@ -207,13 +201,13 @@ li {
 }
 
 .course-link {
-  color: #2c2a27;
   text-decoration: none;
+  color: #2c2a27;
 }
 
 .codewars-link {
-  color: #ad764b;
   text-decoration: none;
+  color: #ad764b;
 }
 
 .course-link:hover,
@@ -221,17 +215,16 @@ li {
   text-decoration: underline;
 }
 
-.bottom-side-section {
+.code-example-section {
   width: 740px;
   margin-left: 52px;
   margin-bottom: 70px;
 }
 
 .code-styled-text {
-  padding: 0.2em 0.4em;
   margin: 0;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+  padding: 0.2em 0.4em;
+  font-family: "SFMono-Regular", "Liberation Mono", monospace;
   font-size: 80%;
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
@@ -239,19 +232,18 @@ li {
 
 .code-example-block {
   width: 920px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+  font-family: "SFMono-Regular", "Liberation Mono", monospace;
   background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
 }
 
-.footer-section-block {
+.footer-block {
+  display: flex;
+  justify-content: space-between;
   width: 920px;
   height: 70px;
   margin-left: 52px;
   background-color: #84522a;
-  display: flex;
-  justify-content: space-between;
 }
 
 .github-info {
@@ -265,20 +257,25 @@ li {
 }
 
 .github-link {
-  color: #deb392;
   position: relative;
   bottom: 13px;
   text-decoration: none;
+  color: #deb392;
 }
 
 .year {
-  color: #deb392;
+  margin-left: 0;
   padding-top: 32px;
   padding-bottom: 13px;
-  margin-left: 0;
+  color: #deb392;
 }
 
 .rsschool-info {
   margin-top: 10px;
   margin-right: 20px;
+}
+
+.trainings-list,
+.projects-list {
+  padding: 0;
 }
