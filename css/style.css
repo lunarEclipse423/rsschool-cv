@@ -15,6 +15,7 @@
 
 body {
   background-color: #f3f2ed;
+  margin-bottom: 0;
 }
 
 .centered-content {
@@ -62,7 +63,8 @@ h3 {
   display: flex;
 }
 
-.contacts-info {
+.contacts-info,
+.year {
   margin-left: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -76,14 +78,13 @@ h3 {
   margin-left: 50px;
 }
 
-.github-link,
 .telegram-link {
   margin-top: 15px;
   text-decoration: none;
 }
 
-.github-link:hover,
-.telegram-link:hover {
+.telegram-link:hover,
+.github-link:hover {
   text-decoration: underline;
 }
 
@@ -223,6 +224,7 @@ li {
 .bottom-side-section {
   width: 740px;
   margin-left: 52px;
+  margin-bottom: 70px;
 }
 
 .code-styled-text {
@@ -243,5 +245,40 @@ li {
   border-radius: 3px;
 }
 
-.code-example {
+.footer-section-block {
+  width: 920px;
+  height: 70px;
+  margin-left: 52px;
+  background-color: #84522a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.github-info {
+  width: 180px;
+  height: 70px;
+}
+
+.github-icon {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.github-link {
+  color: #deb392;
+  position: relative;
+  bottom: 13px;
+  text-decoration: none;
+}
+
+.year {
+  color: #deb392;
+  padding-top: 32px;
+  padding-bottom: 13px;
+  margin-left: 0;
+}
+
+.rsschool-info {
+  margin-top: 10px;
+  margin-right: 20px;
 }
