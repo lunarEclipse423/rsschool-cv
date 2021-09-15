@@ -33,8 +33,17 @@ h2 {
   color: #ad764b;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 21px;
+  font-size: 22px;
   font-variant: small-caps;
+  letter-spacing: 0.15em;
+}
+
+h3 {
+  color: #ad764b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-variant: normal;
   letter-spacing: 0.15em;
 }
 
@@ -95,7 +104,9 @@ h2 {
 
 .first-paragraph,
 .second-paragraph,
-.third-paragraph {
+.third-paragraph,
+.task,
+.example {
   margin-bottom: 32px;
   font-family: Roboto;
   font-weight: 300;
@@ -114,6 +125,7 @@ h2 {
 
 .second-page-container {
   display: flex;
+  margin-bottom: 145px;
 }
 
 .left-side-section {
@@ -198,6 +210,38 @@ li {
   text-decoration: none;
 }
 
-.course-link:hover {
+.codewars-link {
+  color: #ad764b;
+  text-decoration: none;
+}
+
+.course-link:hover,
+.codewars-link:hover {
   text-decoration: underline;
+}
+
+.bottom-side-section {
+  width: 740px;
+  margin-left: 52px;
+}
+
+.code-styled-text {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  font-size: 80%;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
+
+.code-example-block {
+  width: 920px;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
+
+.code-example {
 }

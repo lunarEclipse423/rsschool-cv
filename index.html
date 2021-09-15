@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <title>Belova Maria CV RSS</title>
@@ -123,63 +123,97 @@
           class="divider"
           alt="divider image"
         />
-        <div class="right-side-section">
-          <div class="education">
-            <h2 class="education-title">education</h2>
-            <ul class="education-list">
-              <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> </br>
-                Fundamental Computer Science and Information Technology
-
-              </li>
-              <li class="education-list-item"><span class="education-list-item-title">Courses</span>
-                <ul class="courses-list">
-                  <li><a href="https://www.youtube.com/c/JennyslecturesCSITNETJRF" class="course-link"
-          >Jenny’s lectures CS/IT NET&JRF</a></li>
-                  <li><a href="https://www.youtube.com/c/Freecodecamp" class="course-link"
-          >freeCodeCamp.org lectures</a></li>
-                  <li>Technopolis (Mail.ru Group)
-                    <ul>
-                      <li>Introduction to Java</li>
-                      <li>Test automation</li>
-                    </ul>
-                  </li>
-                  <li>Udemy
-                    <ul>
-                      <li>Java Programming Masterclass covering Java 11 & Java 17</li>
-                    </ul>
-                  </li>
-                  <li>Stepik
-                    <ul>
-                      <li>JavaScript for beginners</li>
-                      <li>Hexlet: An Introduction to Programming (JavaScript ES6)</li>
-                    </ul>
-                  </li>
-                  <li>Code Basics
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                    </ul>
-                  </li>
-                  <li>RS Schools
-                    <ul>
-                      <li>JavaScript/Front-end. Stage 1 (in progress)</li>
-                    </ul>
-                  </li>
-                  <li><a href="https://learn.javascript.ru/" class="course-link"
-          >JavaScript Manual</a> (in progress)</li>
+      <div class="right-side-section">
+        <div class="education">
+          <h2 class="education-title">education</h2>
+          <ul class="education-list">
+            <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> </br>
+              Fundamental Computer Science and Information Technology
+            </li>
+            <li class="education-list-item"><span class="education-list-item-title">Courses</span>
+              <ul class="courses-list">
+                <li><a href="https://www.youtube.com/c/JennyslecturesCSITNETJRF" class="course-link">Jenny’s lectures CS/IT NET&JRF</a></li>
+                <li><a href="https://www.youtube.com/c/Freecodecamp" class="course-link">freeCodeCamp.org lectures</a></li>
+                <li>Technopolis (Mail.ru Group)
+                  <ul>
+                    <li>Introduction to Java</li>
+                    <li>Test automation</li>
                   </ul>
-              </li>
-              <li class="education-list-item"><span class="education-list-item-title">Trainings</span>
+                </li>
+                <li>Udemy
+                  <ul>
+                    <li>Java Programming Masterclass covering Java 11 & Java 17</li>
+                  </ul>
+                </li>
+                <li>Stepik
+                  <ul>
+                    <li>JavaScript for beginners</li>
+                    <li>Hexlet: An Introduction to Programming (JavaScript ES6)</li>
+                  </ul>
+                </li>
+                <li>Code Basics
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </li>
+                <li>RS Schools
+                  <ul>
+                    <li>JavaScript/Front-end. Stage 1 (in progress)</li>
+                  </ul>
+                </li>
+                <li><a href="https://learn.javascript.ru/" class="course-link">JavaScript Manual</a> (in progress)</li>
+              </ul>
+            </li>
+            <li class="education-list-item"><span class="education-list-item-title">Trainings</span>
               <li>One month training in T-Systems (Data Science and Neural Networks)</li>
-              </li>
-              <li class="education-list-item"><span class="education-list-item-title">Projects</span>
+            </li>
+            <li class="education-list-item"><span class="education-list-item-title">Projects</span>
               <li>University project “Doggo” - mobile android app for safe dog walking (private project)</li>
-              </li>
-            </ul>
-          </div>
+            </li>
+          </ul>
         </div>
-    
+      </div>
     </div>
+
+    <div class="bottom-side-section">
+        <h2>code example</h2>
+        <h3>Count the number of Duplicates (from <a href="https://www.codewars.com/" class="codewars-link">Codewars</a>)</h3>
+        <p class="task">
+          Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
+        </p>
+        <h3>Example</h3>
+        <p class="example">
+          “abcde” -> 0 <code class="code-styled-text"># no characters repeats more than once</code></br>
+          “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code></br>
+          “aabBcde” -> 2 <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code></br>
+          “indivisibility” -> 1 <code class="code-styled-text"># 'i' occurs six times</code></br>
+          “Indivisibilities” -> 2 <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code></br>
+          “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code></br>“ABBA” -> 2 <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
+        </p>
+        <h3>Solution</h3>
+        <pre class="code-example-block">
+          <code class="code">
+      function duplicateCount(text){
+        var obj = {};
+        for (var i = 0; i < text.length; ++i) {
+          obj[text[i].toLowerCase()] ? obj[text[i].toLowerCase()]++ : obj[text[i].toLowerCase()] = 1;    
+        }
+              
+        var duplicates = 0;
+        for (prop in obj) {
+          if (obj[prop] > 1) {
+            duplicates++;
+          }
+        }
+              
+        return duplicates;
+      }</code>
+      </pre>
+
+    </div>
+
+    
   </div>
   </body>
 </html>
