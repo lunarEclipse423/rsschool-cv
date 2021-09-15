@@ -109,3 +109,46 @@ h2 {
   width: 420px;
   height: 740px;
 }
+
+.aside {
+  width: 435px;
+  margin-left: 52px;
+}
+
+.skills-title {
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  padding-left: 0px;
+  margin-bottom: 30px;
+}
+
+li {
+  color: #2c2a27;
+  font-family: Roboto;
+  font-weight: 400;
+  list-style-type: none;
+  letter-spacing: 0.4px;
+}
+
+li:before {
+  content: "• ";
+  color: #ad764b;
+  font-size: 25px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.languages-list {
+  padding-left: 0;
+}
+
+.russian-bar,
+.english-bar {
+  margin-left: 27px;
+}
+
+.languages-list-item {
+  margin-left: 25px;
+}
