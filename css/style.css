@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "IowanOldSt BT";
+  src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot");
+  src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff2") format("woff2"),
+    url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff") format("woff"),
+    url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.ttf") format("truetype"),
+    url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.svg#IowanOldStyleBT-Roman")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #f3f2ed;
+}
+
+.centered-content {
+  width: 1024px;
+  margin: auto;
+}
+
+h1 {
+  color: #2c2a27;
+  font-family: "IowanOldSt BT", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+h2 {
+  color: #ad764b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  font-variant: small-caps;
+  letter-spacing: 0.15em;
+}
+
+.occupation-title {
+  color: #84522a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+
+.contacts-bar {
+  margin-top: 132px;
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.contacts-info {
+  margin-left: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2c2a27;
+  letter-spacing: 0.3px;
+}
+
+.contact-icon {
+  margin-left: 50px;
+}
+
+.github-link,
+.telegram-link {
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.github-link:hover,
+.telegram-link:hover {
+  text-decoration: underline;
+}
+
+.first-page-container {
+  display: flex;
+  margin-bottom: 145px;
+}
+
+.about-me-section {
+  width: 470px;
+  margin-left: 50px;
+  margin-right: 55px;
+}
+
+.name {
+  margin-bottom: 90px;
+}
+
+.first-paragraph,
+.second-paragraph,
+.third-paragraph {
+  margin-bottom: 32px;
+  font-family: Roboto;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+.portrait {
+  margin-top: 25px;
+}
+
+.portrait-image {
+  width: 420px;
+  height: 740px;
+}
