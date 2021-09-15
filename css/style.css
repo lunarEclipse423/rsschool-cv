@@ -60,6 +60,7 @@ h2 {
   font-size: 15px;
   color: #2c2a27;
   letter-spacing: 0.3px;
+  line-height: 150%;
 }
 
 .contact-icon {
@@ -98,6 +99,7 @@ h2 {
   margin-bottom: 32px;
   font-family: Roboto;
   font-weight: 300;
+  line-height: 150%;
   letter-spacing: 0.4px;
 }
 
@@ -110,7 +112,11 @@ h2 {
   height: 740px;
 }
 
-.aside {
+.second-page-container {
+  display: flex;
+}
+
+.left-side-section {
   width: 435px;
   margin-left: 52px;
 }
@@ -132,7 +138,8 @@ li {
   letter-spacing: 0.4px;
 }
 
-li:before {
+.skills-list li:before,
+.languages-list li:before {
   content: "• ";
   color: #ad764b;
   font-size: 25px;
@@ -140,8 +147,11 @@ li:before {
   vertical-align: middle;
 }
 
-.languages-list {
+.languages-list,
+.education-list,
+.courses-list {
   padding-left: 0;
+  line-height: 150%;
 }
 
 .russian-bar,
@@ -151,4 +161,34 @@ li:before {
 
 .languages-list-item {
   margin-left: 25px;
+}
+
+.divider {
+  padding-top: 17px;
+}
+
+.right-side-section {
+  margin-left: 20px;
+}
+
+.education-title {
+  margin-bottom: 30px;
+}
+
+.education-list-item-title {
+  color: #2c2a27;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.education-list .education-list-item {
+  margin-top: 20px;
+}
+
+.courses-list li {
+  padding: 3px 0px;
+}
+
+.courses-list li ul {
+  padding-left: 20px;
 }
