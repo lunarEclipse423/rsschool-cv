@@ -10,19 +10,30 @@
   </head>
   <body>
     <div class="centered-content">
-      <header class="contacts-bar">
-        <img class="contact-icon" src="./images/icon-phone.svg" alt="phone icon">
-        <span class="contacts-info">+7 (953) 545-41-44</span>
-        <img class="contact-icon" src="./images/icon-email.svg" alt="email icon">
-        <span class="contacts-info">masha.belova.01@mail.ru</span>
-        <img class="contact-icon" src="./images/icon-telegram.svg" alt="telegram icon">
-        <a class="contacts-info telegram-link" href="https://t.me/Graf_V">Belova Maria</a>
+      <header>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+          </ul>
+        </nav>
+        <div class="contacts-bar">
+          <img class="contact-icon" src="./images/icon-phone.svg" alt="phone icon">
+          <span class="contacts-info">+7 (953) 545-41-44</span>
+          <img class="contact-icon" src="./images/icon-email.svg" alt="email icon">
+          <span class="contacts-info">masha.belova.01@mail.ru</span>
+          <img class="contact-icon" src="./images/icon-telegram.svg" alt="telegram icon">
+          <a class="contacts-info telegram-link" href="https://t.me/Graf_V">Belova Maria</a>
+        </div>
       </header>
 
       <main>
         <div class="first-section">
         <section class="about-me">
-          <h2 class="occupation-title">junior frontend developer</h2>
+          <h2 class="occupation-title" id="about-me">junior frontend developer</h2>
           <h1>Belova Maria</h1>
           <h2>about me</h2>
           <p class="first-about-me-p">
@@ -56,7 +67,7 @@
 
       <div class="second-section">
       <section class="skills-and-lang-section">
-        <h2 class="skills-title">skills</h2>
+        <h2 class="skills-title" id="skills">skills</h2>
         <ul class="skills-list">
           <li>JavaScript Basics</li>
           <li>HTML5</li>
@@ -71,7 +82,7 @@
           <li>VS Code, IntelliJ IDEA, Microsoft VS, <br>PyCharm, Android Studio</li>
           <li>Windows OS, Linux (Ubuntu)</li>
         </ul>
-        <h2>languages</h2>
+        <h2 id="languages">languages</h2>
         <ul class="languages-list">
           <li>Russian, Native <br>
             <img class="russian-bar" src="./images/russian-bar.svg" alt="russian level">
@@ -82,7 +93,7 @@
       </section>
       <img class="divider" src="./images/divider.svg" alt="divider image">
       <section class="education-section">
-          <h2 class="education-title">education</h2>
+          <h2 class="education-title" id="education">education</h2>
           <ul class="education-list">
             <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> <br>
               Fundamental Computer Science and Information Technology
@@ -137,7 +148,7 @@
     </div>
 
     <section class="code-example-section">
-        <h2>code example</h2>
+        <h2 id="code-example">code example</h2>
         <h3>Count the number of Duplicates (from <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)</h3>
         <p class="task">
           Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.

@@ -59,9 +59,30 @@ h3 {
   color: #84522a;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 52px;
+  padding: 0;
+}
+
+.nav-links li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 150%;
+  color: #2c2a27;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #DEB392;
+}
+
 .contacts-bar {
   display: flex;
-  margin-top: 132px;
+  margin-top: 70px;
   margin-bottom: 70px;
 }
 
