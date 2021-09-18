@@ -28,6 +28,8 @@ h1 {
   font-size: 38px;
   font-weight: 400;
   color: #2c2a27;
+  margin-top: 20px;
+  margin-bottom: 90px;
 }
 
 h2 {
@@ -96,10 +98,6 @@ h3 {
   width: 470px;
   margin-left: 50px;
   margin-right: 55px;
-}
-
-.my-name {
-  margin-bottom: 90px;
 }
 
 .first-about-me-p,
@@ -243,7 +241,7 @@ li {
   width: 920px;
   height: 70px;
   margin-left: 52px;
-  background-color: #84522a;
+  background-color: #94653F;
 }
 
 .github-info {
