@@ -2,12 +2,12 @@
   font-family: "IowanOldSt BT";
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot");
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot?#iefix")
-    format("embedded-opentype"),
+      format("embedded-opentype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff2") format("woff2"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff") format("woff"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.ttf") format("truetype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.svg#IowanOldStyleBT-Roman")
-    format("svg");
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -77,13 +77,20 @@ h3 {
 }
 
 .nav-links li a:hover {
-  color: #DEB392;
+  color: #deb392;
 }
 
 .contacts-bar {
   display: flex;
   margin-top: 70px;
   margin-bottom: 70px;
+  padding: 0;
+}
+
+.email-link,
+.telegram-link {
+  position: relative;
+  bottom: 5px;
 }
 
 .contacts-info,
@@ -251,9 +258,6 @@ li {
 
 .code-example-block {
   width: 920px;
-  font-family: "SFMono-Regular", "Liberation Mono", monospace;
-  background-color: rgba(27, 31, 35, 0.05);
-  border-radius: 3px;
 }
 
 .footer-block {
@@ -262,7 +266,7 @@ li {
   width: 920px;
   height: 70px;
   margin-left: 52px;
-  background-color: #94653F;
+  background-color: #94653f;
 }
 
 .github-info {
