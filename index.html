@@ -11,6 +11,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
+        console.log("Самооценка");
+        console.log("1) Вёрстка валидная: +10");
+        console.log("2) Вёрстка семантическая: +16");
+        console.log("3) Для оформления СV используются css-стили: +10");
+        console.log("4) Контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы: +10");
+        console.log("5) Вёрстка адаптивная: 0");
+        console.log("6) Есть адаптивное бургер-меню: 0");
+        console.log("7) На странице СV присутствует фото или аватарка автора CV: +10");
+        console.log("8) Контакты для связи и перечень навыков оформлены в виде списка ul > li: +10");
+        console.log("9) CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского: +10");
+        console.log("10) CV содержит пример кода с подсветкой кода: +10");
+        console.log("11) CV содержит изображения-ссылки на выполненные проекты: 0");
+        console.log("12) CV выполнено на английском языке: +10");
+        console.log("13) Выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка: +10");
+        console.log("14) Есть видеорезюме автора CV на английском языке: 0");
+        console.log("15) Дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию: +10");
+        console.log("Итого: 116 баллов");
     </script>
     <title>Belova Maria CV RSS</title>
 </head>
@@ -79,10 +96,9 @@
                         <li>Python Basics</li>
                         <li>Dart</li>
                         <li>Selenium</li>
-                        <li>Git, Github, Gitlab</li>
-                        <li>Apache Maven</li>
+                        <li>Git</li>
                         <li>
-                            VS Code, IntelliJ IDEA, Microsoft VS, <br>PyCharm, Android Studio
+                            VS Code, IntelliJ IDEA, Microsoft VS, PyCharm, Android Studio
                         </li>
                     </ul>
                     <h2 id="languages">languages</h2>
@@ -102,8 +118,7 @@
                     <h2 class="education-title" id="education">education</h2>
                     <ul class="education-list">
                         <li class="education-list-item">
-                            <span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University,
-                  Bachelor’s degree</span><br> Fundamental Computer Science and Information Technology
+                            <span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span><br> Fundamental Computer Science and Information Technology
                         </li>
                         <li class="education-list-item">
                             <span class="education-list-item-title">Courses</span>
@@ -179,12 +194,10 @@
             <section class="code-example-section">
                 <h2 id="code-example">code example</h2>
                 <h3>
-                    Count the number of Duplicates (from
-                    <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)
+                    Count the number of Duplicates (from <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)
                 </h3>
                 <p class="task">
-                    Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and
-                    numeric digits.
+                    Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
                 </p>
                 <h3>Example</h3>
                 <p class="input-example">
@@ -196,7 +209,7 @@
                     <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
                 </p>
                 <h3>Solution</h3>
-                <pre class="code-example-block">
+                <pre>
                   <code class="language-javascript">
       function duplicateCount(text){
         var obj = {};
