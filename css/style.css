@@ -2,12 +2,12 @@
   font-family: "IowanOldSt BT";
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot");
   src: url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.eot?#iefix")
-    format("embedded-opentype"),
+      format("embedded-opentype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff2") format("woff2"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.woff") format("woff"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.ttf") format("truetype"),
     url("../fonts/Iowan_Old_Style/IowanOldStyleBT-Roman.svg#IowanOldStyleBT-Roman")
-    format("svg");
+      format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -15,15 +15,18 @@
 
 body {
   margin-bottom: 0;
+  padding: 0px 15px;
   background-color: #f3f2ed;
 }
 
 .centered-content {
-  width: 1024px;
+  max-width: 1024px;
   margin: auto;
 }
 
 h1 {
+  margin-top: 20px;
+  margin-bottom: 90px;
   font-family: "IowanOldSt BT", sans-serif;
   font-size: 38px;
   font-weight: 400;
@@ -57,10 +60,38 @@ h3 {
   color: #84522a;
 }
 
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 0;
+}
+
+.nav-links li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 150%;
+  color: #2c2a27;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #deb392;
+}
+
 .contacts-bar {
   display: flex;
-  margin-top: 132px;
+  margin-top: 70px;
   margin-bottom: 70px;
+  padding: 0;
+}
+
+.email-link,
+.telegram-link {
+  position: relative;
+  bottom: 5px;
 }
 
 .contacts-info,
@@ -89,17 +120,12 @@ h3 {
 
 .first-section {
   display: flex;
-  margin-bottom: 145px;
+  margin: 0 50px 145px;
 }
 
 .about-me {
-  width: 470px;
-  margin-left: 50px;
+  max-width: 470px;
   margin-right: 55px;
-}
-
-.my-name {
-  margin-bottom: 90px;
 }
 
 .first-about-me-p,
@@ -115,17 +141,17 @@ h3 {
 }
 
 .portrait {
-  margin-top: 25px;
+  margin-top: 10px;
+  object-fit: contain;
 }
 
 .second-section {
   display: flex;
-  margin-bottom: 145px;
+  margin: 0 50px 145px;
 }
 
 .skills-and-lang-section {
-  width: 435px;
-  margin-left: 52px;
+  max-width: 435px;
 }
 
 .skills-title {
@@ -133,8 +159,13 @@ h3 {
 }
 
 .skills-list {
+  width: 400px;
   margin-bottom: 30px;
   padding-left: 0;
+}
+
+.skills-list li {
+  max-width: 350px;
 }
 
 li {
@@ -216,9 +247,8 @@ li {
 }
 
 .code-example-section {
-  width: 740px;
-  margin-left: 52px;
-  margin-bottom: 70px;
+  max-width: 920px;
+  margin: 0 50px 70px;
 }
 
 .code-styled-text {
@@ -230,24 +260,17 @@ li {
   border-radius: 3px;
 }
 
-.code-example-block {
-  width: 920px;
-  font-family: "SFMono-Regular", "Liberation Mono", monospace;
-  background-color: rgba(27, 31, 35, 0.05);
-  border-radius: 3px;
-}
-
 .footer-block {
   display: flex;
   justify-content: space-between;
-  width: 920px;
+  max-width: 920px;
   height: 70px;
-  margin-left: 52px;
-  background-color: #84522a;
+  margin: 0 50px;
+  background-color: #94653f;
 }
 
 .github-info {
-  width: 180px;
+  max-width: 180px;
   height: 70px;
 }
 
@@ -259,8 +282,8 @@ li {
 .github-link {
   position: relative;
   bottom: 13px;
-  text-decoration: none;
   color: #deb392;
+  text-decoration: none;
 }
 
 .year {

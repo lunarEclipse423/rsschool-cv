@@ -1,159 +1,216 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/androidstudio.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+        console.log("Самооценка");
+        console.log("1) Вёрстка валидная: +10");
+        console.log("2) Вёрстка семантическая: +16");
+        console.log("3) Для оформления СV используются css-стили: +10");
+        console.log("4) Контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы: +10");
+        console.log("5) Вёрстка адаптивная: 0");
+        console.log("6) Есть адаптивное бургер-меню: 0");
+        console.log("7) На странице СV присутствует фото или аватарка автора CV: +10");
+        console.log("8) Контакты для связи и перечень навыков оформлены в виде списка ul > li: +10");
+        console.log("9) CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского: +10");
+        console.log("10) CV содержит пример кода с подсветкой кода: +10");
+        console.log("11) CV содержит изображения-ссылки на выполненные проекты: 0");
+        console.log("12) CV выполнено на английском языке: +10");
+        console.log("13) Выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка: +10");
+        console.log("14) Есть видеорезюме автора CV на английском языке: 0");
+        console.log("15) Дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию: +10");
+        console.log("Итого: 116 баллов");
+    </script>
     <title>Belova Maria CV RSS</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="centered-content">
-      <header class="contacts-bar">
-        <img class="contact-icon" src="./images/icon-phone.svg" alt="phone icon">
-        <span class="contacts-info">+7 (953) 545-41-44</span>
-        <img class="contact-icon" src="./images/icon-email.svg" alt="email icon">
-        <span class="contacts-info">masha.belova.01@mail.ru</span>
-        <img class="contact-icon" src="./images/icon-telegram.svg" alt="telegram icon">
-        <a class="contacts-info telegram-link" href="https://t.me/Graf_V">Belova Maria</a>
-      </header>
+        <header>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#code-example">Code Example</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts-bar">
+                <li>
+                    <img class="contact-icon" src="./images/icon-phone.svg" alt="phone icon">
+                    <span class="contacts-info">+7 (953) 545-41-44</span>
+                </li>
+                <li>
+                    <img class="contact-icon" src="./images/icon-email.svg" alt="email icon">
+                    <span class="contacts-info email-link">masha.belova.01@mail.ru</span>
+                </li>
+                <li>
+                    <img class="contact-icon" src="./images/icon-telegram.svg" alt="telegram icon">
+                    <a class="contacts-info telegram-link" href="https://t.me/Graf_V">Belova Maria</a>
+                </li>
+            </ul>
+        </header>
 
-      <main>
-        <section class="first-section">
-        <section class="about-me">
-          <h2 class="occupation-title">junior frontend developer</h2>
-          <h1 class="my-name">Belova Maria</h1>
-          <h2>about me</h2>
-          <p class="first-about-me-p">
-            Ever since high school, I’ve been interested in IT and programming.
-            That is the main reason why I was thrilled to go to Peter the Great
-            St. Petersburg Polytechnic University to study Fundamental Computer
-            Science and Information Technology.
-          </p>
-          <p class="second-about-me-p">
-            Studying at the university taught me a whole host of valuable
-            skills, such as being collaborative, independent (which is more
-            about time management and study-life-balance), active and
-            persistent. In addition to the previously listed skills, I would
-            like to highlight self-learning since this ability cannot be
-            dispensed with both at the university and in real life.
-          </p>
-          <p class="third-about-me-p">
-            At present, I’m 20 years old and I’m a 3rd year student, learning
-            web programming at the RS-School in parallel. In my opinion,
-            Frontend Development is not only one of the most promising
-            industries of the future, but it also provides sizeable
-            opportunities for showing your creativity in elaborating effective
-            solutions, as well as simplifying people’s lives by creating
-            user-friendly websites and apps. I am certain that Web Development
-            is the field in which I see myself and want to actively develop in
-            the upcoming years.
-          </p>
-        </section>
-        <img class="portrait" src="./images/portrait.jpg" alt="portrait" width="420" height="775">
-      </section>
+        <main>
+            <div class="first-section">
+                <section class="about-me">
+                    <h2 class="occupation-title" id="about-me">
+                        junior frontend developer
+                    </h2>
+                    <h1>Belova Maria</h1>
+                    <h2>about me</h2>
+                    <p class="first-about-me-p">
+                        Ever since high school, I’ve been interested in IT and programming. That is the main reason why I was thrilled to go to Peter the Great St. Petersburg Polytechnic University to study Fundamental Computer Science and Information Technology.
+                    </p>
+                    <p class="second-about-me-p">
+                        Studying at the university taught me a whole host of valuable skills, such as being collaborative, independent (which is more about time management and study-life-balance), active and persistent. In addition to the previously listed skills, I would like
+                        to highlight self-learning since this ability cannot be dispensed with both at the university and in real life.
+                    </p>
+                    <p class="third-about-me-p">
+                        At present, I’m 20 years old and I’m a 3rd year student, learning web programming at the RS-School in parallel. In my opinion, Frontend Development is not only one of the most promising industries of the future, but it also provides sizeable opportunities
+                        for showing your creativity in elaborating effective solutions, as well as simplifying people’s lives by creating user-friendly websites and apps. I am certain that Web Development is the field in which I see myself and want to
+                        actively develop in the upcoming years.
+                    </p>
+                </section>
+                <img class="portrait" src="./images/portrait.jpg" alt="portrait" width="420" height="765">
+            </div>
 
-      <section class="second-section">
-      <section class="skills-and-lang-section">
-        <h2 class="skills-title">skills</h2>
-        <ul class="skills-list">
-          <li>JavaScript Basics</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>C++</li>
-          <li>Java</li>
-          <li>Python Basics</li>
-          <li>Dart</li>
-          <li>Selenium</li>
-          <li>Git, Github, Gitlab</li>
-          <li>Apache Maven</li>
-          <li>VS Code, IntelliJ IDEA, Microsoft VS, <br>PyCharm, Android Studio</li>
-          <li>Windows OS, Linux (Ubuntu)</li>
-        </ul>
-        <h2>languages</h2>
-        <ul class="languages-list">
-          <li>Russian, Native <br>
-            <img class="russian-bar" src="./images/russian-bar.svg" alt="russian level">
-          <li>English, Advanced <br>
-            <img class="english-bar" src="./images/english-bar.svg" alt="english level">
-          </li>
-        </ul>
-      </section>
-      <img class="divider" src="./images/divider.svg" alt="divider image">
-      <section class="education-section">
-          <h2 class="education-title">education</h2>
-          <ul class="education-list">
-            <li class="education-list-item"><span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span> <br>
-              Fundamental Computer Science and Information Technology
-            </li>
-            <li class="education-list-item"><span class="education-list-item-title">Courses</span>
-              <ul class="courses-list">
-                <li><a class="course-link" href="https://www.youtube.com/c/JennyslecturesCSITNETJRF">Jenny’s lectures CS/IT NET&JRF</a></li>
-                <li><a class="course-link" href="https://www.youtube.com/c/Freecodecamp">freeCodeCamp.org lectures</a></li>
-                <li>Technopolis (Mail.ru Group)
-                  <ul>
-                    <li>Introduction to Java</li>
-                    <li>Test automation</li>
-                  </ul>
-                </li>
-                <li>Udemy
-                  <ul>
-                    <li>Java Programming Masterclass covering Java 11 & Java 17</li>
-                  </ul>
-                </li>
-                <li>Stepik
-                  <ul>
-                    <li>JavaScript for beginners</li>
-                    <li>Hexlet: An Introduction to Programming (JavaScript ES6)</li>
-                  </ul>
-                </li>
-                <li>Code Basics
-                  <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ul>
-                </li>
-                <li>RS Schools
-                  <ul>
-                    <li>JavaScript/Front-end. Stage 1 (in progress)</li>
-                  </ul>
-                </li>
-                <li><a class="course-link" href="https://learn.javascript.ru/">JavaScript Manual</a> (in progress)</li>
-              </ul>
-            </li>
-            <li class="education-list-item"><span class="education-list-item-title">Trainings</span>
-              <ul class="trainings-list">
-                <li>One month training in T-Systems (Data Science and Neural Networks)</li>
-              </ul>
-            </li>
-            <li class="education-list-item"><span class="education-list-item-title">Projects</span>
-              <ul class="projects-list">
-                <li>University project “Doggo” - mobile android app for safe dog walking (private project)</li>
-              </ul>
-            </li>
-          </ul>
-      </section>
-    </section>
+            <div class="second-section">
+                <section class="skills-and-lang-section">
+                    <h2 class="skills-title" id="skills">skills</h2>
+                    <ul class="skills-list">
+                        <li>JavaScript Basics</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python Basics</li>
+                        <li>Dart</li>
+                        <li>Selenium</li>
+                        <li>Git</li>
+                        <li>
+                            VS Code, IntelliJ IDEA, Microsoft VS, PyCharm, Android Studio
+                        </li>
+                    </ul>
+                    <h2 id="languages">languages</h2>
+                    <ul class="languages-list">
+                        <li>
+                            Russian, Native <br>
+                            <img class="russian-bar" src="./images/russian-bar.svg" alt="russian level">
+                        </li>
+                        <li>
+                            English, Advanced <br>
+                            <img class="english-bar" src="./images/english-bar.svg" alt="english level">
+                        </li>
+                    </ul>
+                </section>
+                <img class="divider" src="./images/divider.svg" alt="divider image">
+                <section class="education-section">
+                    <h2 class="education-title" id="education">education</h2>
+                    <ul class="education-list">
+                        <li class="education-list-item">
+                            <span class="education-list-item-title">Peter the Great St. Petersburg Polytechnic University, Bachelor’s degree</span><br> Fundamental Computer Science and Information Technology
+                        </li>
+                        <li class="education-list-item">
+                            <span class="education-list-item-title">Courses</span>
+                            <ul class="courses-list">
+                                <li>
+                                    <a class="course-link" href="https://www.youtube.com/c/JennyslecturesCSITNETJRF">Jenny’s lectures CS/IT NET&JRF</a>
+                                </li>
+                                <li>
+                                    <a class="course-link" href="https://www.youtube.com/c/Freecodecamp">freeCodeCamp.org lectures</a>
+                                </li>
+                                <li>
+                                    Technopolis (Mail.ru Group)
+                                    <ul>
+                                        <li>Introduction to Java</li>
+                                        <li>Test automation</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Udemy
+                                    <ul>
+                                        <li>
+                                            Java Programming Masterclass covering Java 11 & Java 17
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Stepik
+                                    <ul>
+                                        <li>JavaScript for beginners</li>
+                                        <li>
+                                            Hexlet: An Introduction to Programming (JavaScript ES6)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Code Basics
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    RS Schools
+                                    <ul>
+                                        <li>JavaScript/Front-end. Stage 1 (in progress)</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="course-link" href="https://learn.javascript.ru/">JavaScript Manual</a> (in progress)
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="education-list-item">
+                            <span class="education-list-item-title">Trainings</span>
+                            <ul class="trainings-list">
+                                <li>
+                                    One month training in T-Systems (Data Science and Neural Networks)
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="education-list-item">
+                            <span class="education-list-item-title">Projects</span>
+                            <ul class="projects-list">
+                                <li>
+                                    University project “Doggo” - mobile android app for safe dog walking (private project)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
 
-    <section class="code-example-section">
-        <h2>code example</h2>
-        <h3>Count the number of Duplicates (from <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)</h3>
-        <p class="task">
-          Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
-        </p>
-        <h3>Example</h3>
-        <p class="input-example">
-          “abcde” -> 0 <code class="code-styled-text"># no characters repeats more than once</code><br>
-          “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code><br>
-          “aabBcde” -> 2 <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code><br>
-          “indivisibility” -> 1 <code class="code-styled-text"># 'i' occurs six times</code><br>
-          “Indivisibilities” -> 2 <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code><br>
-          “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code><br>“ABBA” -> 2 <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
-        </p>
-        <h3>Solution</h3>
-        <pre class="code-example-block">
-          <code>
+            <section class="code-example-section">
+                <h2 id="code-example">code example</h2>
+                <h3>
+                    Count the number of Duplicates (from <a class="codewars-link" href="https://www.codewars.com/">Codewars</a>)
+                </h3>
+                <p class="task">
+                    Write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string. The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.
+                </p>
+                <h3>Example</h3>
+                <p class="input-example">
+                    “abcde” -> 0
+                    <code class="code-styled-text"># no characters repeats more than once</code><br> “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code><br> “aabBcde” -> 2
+                    <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code><br> “indivisibility” -> 1
+                    <code class="code-styled-text"># 'i' occurs six times</code><br> “Indivisibilities” -> 2
+                    <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code><br> “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code><br>“ABBA” -> 2
+                    <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
+                </p>
+                <h3>Solution</h3>
+                <pre>
+                  <code class="language-javascript">
       function duplicateCount(text){
         var obj = {};
         for (var i = 0; i &lt; text.length; ++i) {
@@ -168,25 +225,27 @@
         }
 
         return duplicates;
-      }</code>
-      </pre>
-    </section>
-    </main>
+      }
+    </code>
+    </pre>
+            </section>
+        </main>
 
-    <footer>
-      <div class="footer-block">
-        <div class="github-info">
-          <img class="github-icon" src="./images/icon-github.svg" alt="github icon">
-          <a class="contacts-info github-link" href="https://github.com/lunarEclipse423">Visit my GitHub</a>
-        </div>
-        <span class="year">2021</span>
-        <div class="rsschool-info">
-          <a class="rsschool-logo" href="https://rs.school/js/">
-            <img class="rsschool-icon" src="./images/rsschool.svg" alt="rsschool icon">
-          </a>
-        </div>
-      </div>
-    </footer>
-  </div>
-  </body>
+        <footer>
+            <div class="footer-block">
+                <div class="github-info">
+                    <img class="github-icon" src="./images/icon-github.svg" alt="github icon">
+                    <a class="contacts-info github-link" href="https://github.com/lunarEclipse423">Visit my GitHub</a>
+                </div>
+                <span class="year">2021</span>
+                <div class="rsschool-info">
+                    <a class="rsschool-logo" href="https://rs.school/js/">
+                        <img class="rsschool-icon" src="./images/rsschool.svg" alt="rsschool icon">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
