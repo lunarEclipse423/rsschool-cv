@@ -201,11 +201,11 @@
                 </p>
                 <h3>Example</h3>
                 <p class="input-example">
-                    “abcde” -> 0
-                    <code class="code-styled-text"># no characters repeats more than once</code><br> “aabbcde” -> 2 <code class="code-styled-text"># 'a' and 'b'</code><br> “aabBcde” -> 2
-                    <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code><br> “indivisibility” -> 1
-                    <code class="code-styled-text"># 'i' occurs six times</code><br> “Indivisibilities” -> 2
-                    <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code><br> “aA11” -> 2 <code class="code-styled-text"># 'a' and '1'</code><br>“ABBA” -> 2
+                    “abcde” -&gt; 0
+                    <code class="code-styled-text"># no characters repeats more than once</code><br> “aabbcde” -&gt; 2 <code class="code-styled-text"># 'a' and 'b'</code><br> “aabBcde” -&gt; 2
+                    <code class="code-styled-text"># 'a' occurs twice and 'b' twice (b and B)</code><br> “indivisibility” -&gt; 1
+                    <code class="code-styled-text"># 'i' occurs six times</code><br> “Indivisibilities” -&gt; 2
+                    <code class="code-styled-text"># 'i' occurs seven times and 's' occurs twice</code><br> “aA11” -&gt; 2 <code class="code-styled-text"># 'a' and '1'</code><br>“ABBA” -&gt; 2
                     <code class="code-styled-text"># 'A' and 'B' each occur twice</code>
                 </p>
                 <h3>Solution</h3>
@@ -219,7 +219,7 @@
 
         var duplicates = 0;
         for (prop in obj) {
-          if (obj[prop] > 1) {
+          if (obj[prop] &gt; 1) {
             duplicates++;
           }
         }
